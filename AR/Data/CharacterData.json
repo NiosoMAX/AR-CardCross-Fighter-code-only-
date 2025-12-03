@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Hitomi",
+    "full_name": "Hitomi Hayakawa",
+    "descripcion_1": "Hitomi Hayakawa is the MC\n of Shoujo no Hitomi.\n She has a power called\n Ophthalmos that lets\n her wield weapons\n summoned from her\n right eye.",
+    "descripcion_2": "Hitomi's Opthalmos is called\n Weapon Interlocking. It has\n different forms, namely\n a katana, a bow,\n a spear or even a mirror.",
+    "voice": "Horned Owl",
+    "normal_attack": {
+        "damage": 15,
+        "type": "melee",
+        "initialDelay": 0.6,
+        "duration": 0.5
+    },
+    "skill": {
+        "damage": 30,
+        "type": "aoe",
+        "cooldown": 5,
+        "initialDelay": 0.4,
+        "duration": 0.4
+    },
+    "createConvex" : false,
+    "animStart": {
+            "idle": 0,
+            "idle_to_action": 499,
+            "battle_idle": 545,
+            "run": 599,
+            "normal_attack": 621,
+            "skill": 663,
+            "defeat": 710,
+            "victory": 778
+        },
+        "animEnd": {
+            "idle": 499,
+            "idle_to_action": 544,
+            "battle_idle": 599,
+            "run": 620,
+            "normal_attack": 663,
+            "skill": 710,
+            "defeat": 778,
+            "victory": 821
+        },
+  },
+  {
+    "name": "Miki",
+    "full_name": "Miki Taneguchi",
+    "descripcion_1": "Miki Taneguchi is a\n maid that works for\n Nakatomi Labs. She has\n the ability to manipulate\n artificial light sources.",
+    "descripcion_2": "Miki's Ophthalmos is called\n Glimmering Model. She\n can inflict various effects\n via artificial light, like\n temporary blind or hypnosis.",
+    "voice": "LunaStar",
+    "normal_attack": {
+        "damage": 13,
+        "type": "projectile",
+        "initialDelay": 0.6,
+        "duration": 0.8
+    },
+    "skill": {
+        "damage": 35,
+        "type": "beam",
+        "cooldown": 5,
+        "initialDelay": 0.4,
+        "duration": 0.2
+    },
+    "createConvex" : true,
+    "animStart": {
+        "idle": 0,
+        "idle_to_action": 300,
+        "battle_idle": 330,
+        "run": 630,
+        "normal_attack": 660,
+        "skill": 708,
+        "defeat": 761,
+        "victory": 829
+    },
+    "animEnd": {
+        "idle": 300,
+        "idle_to_action": 330,
+        "battle_idle": 630,
+        "run": 660,
+        "normal_attack": 708,
+        "skill": 761,
+        "defeat": 829,
+        "victory": 950
+    },
+  }
+]
